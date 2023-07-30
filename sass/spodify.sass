@@ -1,0 +1,54 @@
+@import _mixin
+
+$sfyColor: #1DB954, #ffffff, #c6c6c6, #24252a, #191414
+@for $i from 1 through 5
+	@include bgc(bg-sfy#{$i}, nth($sfyColor, $i))
+	@include color(text-sfy#{$i}, nth($sfyColor, $i))
+
+@include hnpx(25)
+@include wnpx(25)
+@include hnpx(30)
+@include wnpx(30)
+@include hnpx(50)
+@include hnpx(40)
+@include hnpx(60)
+
+@include hnpx(90)
+@include wnpx(40)
+@include wnpx(50)
+@include wnpx(60)
+
+@include wnpx(90)
+@include hnpx(150)
+@include wnpx(150)
+@include hnpx(200)
+@include wnpx(200)
+@include hnpx(300)
+@include hnpx(400)
+@include wnpx(400)
+@include wnpx(700)
+
+body
+	background-color: nth($sfyColor,5)
+
+.c1
+	color: red
+
+.c2
+	color: orange
+
+.c3
+	color: green
+
+.collection
+	border-top: 1px solid #787878
+
+.fa-circle-chevron-left
+	font-size: 40px
+
+.fa-circle-chevron-right
+	font-size: 40px
+
+.greet
+	font-size: 50px
+	font-weight: 600

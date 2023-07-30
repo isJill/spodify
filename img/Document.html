@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://127.0.0.1:5500/index1.html# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./Document_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Document_files/all.min.css">
+    <title>Document</title>
+
+<style>
+ .nav-pills .nav-item {
+        border-radius: 6px;
+        transition: 0.5s all;
+    }
+
+
+    .nav-pills .nav-item.active {
+        background-color: salmon;
+        color: #fff;
+        font-weight: 800;
+    }
+
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-warning">
+        <div class="container-fluid ms-3">
+          <a class="navbar-brand text-dark" href="http://127.0.0.1:5500/index1.html#">第一女子軍團</a>
+          <div class="dropdown p-2 ">
+            <a href="http://127.0.0.1:5500/index1.html#" class="d-flex align-items-center text-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="./Document_files/photo-1514888286974-6c03e2ca1dba" alt="" width="32" height="32" class="rounded-circle me-2">
+              <strong>管理員</strong>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark text-small shadow " aria-labelledby="dropdownUser1">
+              <li><a class="dropdown-item" href="http://127.0.0.1:5500/index1.html#">設定</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:5500/index1.html#">個人資料</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:5500/index1.html#">登出</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+   
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class="bg-warning-subtle col-auto col-md-2 min-vh-100 pt-3">
+     
+        <ul class="nav nav-pills flex-column mb-auto">
+          <li class="nav-item">
+ 
+            <a href="http://127.0.0.1:5500/index1.html#" class="nav-link text-dark " data-bs-toggle="collapse" data-bs-target="#collapseBt">
+                <i class="fa-solid fa-user me-3"></i> 登入
+            </a>
+
+              <a href="http://127.0.0.1:5500/index1.html#" class="nav-link text-dark " data-bs-toggle="collapse" data-bs-target="#collapseBt">
+               個人資料
+            </a>
+
+          </li>
+
+          
+          <li class="nav-item">
+            <a href="http://127.0.0.1:5500/index1.html#" class="nav-link text-dark">
+                <i class="fa-solid fa-store me-2"></i> 商城
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="http://127.0.0.1:5500/index1.html#" class="nav-link text-dark">
+                <i class="fa-solid fa-utensils me-3"></i>餐廳
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="http://127.0.0.1:5500/index1.html#" class="nav-link text-dark">
+                <i class="fa-solid fa-person-walking me-3"></i>
+              活動
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="http://127.0.0.1:5500/index1.html#" class="nav-link text-dark">
+                <i class="fa-solid fa-comment me-2"></i>
+              論壇
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="http://127.0.0.1:5500/index1.html#" class="nav-link text-dark">
+                <i class="fa-solid fa-cart-shopping me-2"></i>
+              購物車
+            </a>
+          </li>
+        </ul>
+  
+    </div>
+</div>
+</div>
+
+    <script src="./Document_files/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

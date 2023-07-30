@@ -1,0 +1,152 @@
+.bg-sfy1 {
+  background-color: #1DB954;
+}
+
+.text-sfy1 {
+  color: #1DB954;
+}
+
+.bg-sfy2 {
+  background-color: #ffffff;
+}
+
+.text-sfy2 {
+  color: #ffffff;
+}
+
+.bg-sfy3 {
+  background-color: #c6c6c6;
+}
+
+.text-sfy3 {
+  color: #c6c6c6;
+}
+
+.bg-sfy4 {
+  background-color: #24252a;
+}
+
+.text-sfy4 {
+  color: #24252a;
+}
+
+.bg-sfy5 {
+  background-color: #191414;
+}
+
+.text-sfy5 {
+  color: #191414;
+}
+
+.h25px {
+  height: 25px;
+}
+
+.w25px {
+  width: 25px;
+}
+
+.h30px {
+  height: 30px;
+}
+
+.w30px {
+  width: 30px;
+}
+
+.h50px {
+  height: 50px;
+}
+
+.h40px {
+  height: 40px;
+}
+
+.h60px {
+  height: 60px;
+}
+
+.h90px {
+  height: 90px;
+}
+
+.w40px {
+  width: 40px;
+}
+
+.w50px {
+  width: 50px;
+}
+
+.w60px {
+  width: 60px;
+}
+
+.w90px {
+  width: 90px;
+}
+
+.h150px {
+  height: 150px;
+}
+
+.w150px {
+  width: 150px;
+}
+
+.h200px {
+  height: 200px;
+}
+
+.w200px {
+  width: 200px;
+}
+
+.h300px {
+  height: 300px;
+}
+
+.h400px {
+  height: 400px;
+}
+
+.w400px {
+  width: 400px;
+}
+
+.w700px {
+  width: 700px;
+}
+
+body {
+  background-color: #191414;
+}
+
+.c1 {
+  color: red;
+}
+
+.c2 {
+  color: orange;
+}
+
+.c3 {
+  color: green;
+}
+
+.collection {
+  border-top: 1px solid #787878;
+}
+
+.fa-circle-chevron-left {
+  font-size: 40px;
+}
+
+.fa-circle-chevron-right {
+  font-size: 40px;
+}
+
+.greet {
+  font-size: 50px;
+  font-weight: 600;
+}/*# sourceMappingURL=spodify.css.map */
